@@ -62,7 +62,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /travel/
+      - path: /travel-blue/
         backend:
           serviceName: ta-front-blue-svc
           servicePort: 9004
