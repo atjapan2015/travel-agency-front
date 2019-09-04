@@ -55,7 +55,7 @@ app.get('/flights', function(req, res) {
   console.log("calling flights");
   const options = {
     method: 'GET',
-    uri: 'http://ta-flight-apm-svc:9005/flights',
+    uri: 'http://ta-flight-svc:9002/flights',
     encoding: null,
     headers: {
       'Content-type': 'application/json'
